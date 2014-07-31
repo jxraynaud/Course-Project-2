@@ -21,7 +21,7 @@ SCC <- readRDS("data/Source_Classification_Code.rds")
 ## We need to subset Baltimore City (on fips = 24510)
 
 BaltimoreNEI <- NEI[NEI$fips=="24510",]
-BaltimoreNEI$year <- as.factor(BlatimoreNEI$year)
+BaltimoreNEI$year <- as.factor(BaltimoreNEI$year)
 
 
 ## We simply do the same thing than in question 1 using this dataset 
